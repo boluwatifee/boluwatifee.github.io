@@ -404,12 +404,17 @@ nav img{
        width: 50%;
        height: 90vh;
        top: 10vh;
-       background-color: rgba(237, 9, 9, 0.29) 44%;
+       background-color: rgb(250 184 184);;
         display: flex;
         flex-direction: column;
         align-items: center;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        display: none;
+   }
+   .nav-list.nav-active {
+       transform: translateX(0);
+       display: flex;
    }
    .nav-list li{
        opacity: 0;
