@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boluwatife Jemiriye</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
      <div id="loader">
@@ -30,9 +31,11 @@
     </div>
     <section class="hero-section" id="home">
        <header>
+           <div>
         <nav>
             <a href="#home"><img src="./images/Jb..svg" alt="logo here"></a>
             <ul class="nav-list">
+                <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Contact</a></li>
@@ -45,6 +48,7 @@
                 <div class="line line3"></div>
             </div>
         </nav>
+    </div>
     </header>
         <br>
         <div class="content">
@@ -60,9 +64,9 @@
                     <h1>Hey There, <br> I'm Boluwatife</h1>
 <!--                     <h3 class="design">UX/UI Designer</h3>
                     <h3 class="dev">Front-End Developer</h3> -->
-                    <span>I love designing and building neat and <br> responsive interfaces</span>
+                    <span>I love designing and building neat and responsive interfaces</span>
                    <!--  <button class="viewwork">View my work</button> -->
-                </div>
+                </div><br>
                 <img src="./images/img1.svg" alt="a picture here">
             </div>
             <div class="rightpart">
@@ -71,9 +75,20 @@
         </div>
         </section>
 
+       <!--  <section id="about">
+            <p class="heading"> A B O U T    M E</p><br>
+            <div class="aboutme">
+                <p>
+                    My name is Boluwatifenisolae Jemiriye. I'm lovable. I love exploring 
+                and trying out new things. I have many interests. Presently, I'm into designing 
+                web and mobile experiences for users. I'm a freelancer and also open to contract and full time roles
+                </p>
+            </div>
+        </section> -->
+ 
         <section id="services">
             <p class="heading">S E R V I C E S</p><br>
-            <span class="services-total">
+        <div class="services-total">
             <div class="uiskill skill">
                 <img src="./images/Vector.png" alt="">
                <div class="content1">
@@ -99,39 +114,46 @@
                     <span>Github <br>Visual Studio Code</span>
                </div>
             </div>
-            </span>
+    </div>
      </section>
 <br>
      <section id="portfolio">
         <p class="heading">P O R T F O L I O</p>
         <p class= "heading fe">F R O N T- E N D</p>
         <div class="pro project1">
-            <img src="./images/portfolio pic.png" alt="">
             <div class="procontent">
                 <p>My Portfolio</p>
-                <span>Designed and created by me, <br>
-                     my portfolio was built with <br>
+                <span>Designed and created by me, 
+                     my portfolio was built with 
                           HTML, CSS and Vanilla JavaScript.</span>
                     <br>
+                   <div class="topics">
+                    <span class="framework">HTML</span>
+                    <span class="framework">CSS</span>
+                    <span class="framework">JS</span>
+                   </div>
                 <button class="viewwork">View</button>
             </div>
         </div>
            
     
             <div class="pro project2">
-                <img src="./images/Screenshot (384).png" alt="">
                 <div class="procontent">
                     <p>Freshly Organics Landing Page</p>
                     <span>A business landing page for a <br>
                              healthy drink company. Built with  <br>
                               HTML, CSS and Vanilla JavaScript.</span>
                               <br>
+                    <div class="topics">
+                        <span class="framework">HTML</span>
+                        <span class="framework">CSS</span>
+                        <span class="framework">JS</span>
+                   </div>
                     <button class="viewwork">View</button>
                 </div>
             </div>
     
             <div class="pro project3">
-                <img src="./images/Screenshot (383).png" alt="">
                 <div class="procontent">
                     <p>Vacation Destination Wish List</p>
                     <span>This is a web page that allows you <br>
@@ -140,6 +162,11 @@
                                    purposes. Built with HTML, CSS and <br>
                                  Vanilla JavaScript.</span>
                                  <br>
+                    <div class="topics">
+                        <span class="framework">HTML</span>
+                        <span class="framework">CSS</span>
+                        <span class="framework">JS</span>
+                   </div>             
                     <button class="viewwork">View</button>
                 </div>
             </div> 
@@ -147,30 +174,18 @@
             
         <div class="design">
             <p class= "heading fe">D E S I G N</p>
-            <div class="overallbox">
-                <div class="box1">
-                    <img src="./images/Desktop - 1.png" alt="">
-                    <img src="./images/men blog.png" alt="">
-                    <img src="./images/desktop 3.png" alt="">
+            <div class="grid-container">
+                <div class="grid-item col-1">
                 </div>
-                <div class="box2">
-                    <img src="./images/Group 12.png" alt="">
-                    <img src="./images/david's site (2).png" alt="">
-                    <img src="./images/checkout pg 4.png" alt="">
+                <div class="grid-item col-2">
                 </div>
-            </div>
-            <div class="extrabox">
-                <div class="EB1">
-                    <img src="./images/Desktop - 1.png" alt="">
-                    <img src="./images/men blog.png" alt="">
+                <div class="grid-item col-3">
                 </div>
-                <div class="EB2">
-                    <img src="./images/desktop 3.png" alt="">
-                    <img src="./images/Group 12.png" alt="">
+                <div class="grid-item col-4">    
                 </div>
-                <div class="EB1">
-                    <img src="./images/david's site (2).png" alt="">
-                    <img src="./images/checkout pg 4.png" alt="">
+                <div class="grid-item col-5">
+                </div>
+                <div class="grid-item col-6">    
                 </div>
             </div>
             <button class="viewmore">View more on Behance</button> 
@@ -188,12 +203,12 @@
             </div>
     
             <div class="getintouch">
-                <p class="heading">G E T  I N  T O U C H</p>
+                <p class="heading">G E T  I N   T O U C H</p>
                 <form action="">
                     <label for="Email">Email</label><br>
                     <input type="email" name="Email" id="email"><br>
                     <label for="message">Message</label><br>
-                    <input type="text" name="message" id="message"><br>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
                     <input type="button" value="Send" class="viewwork">
                 </form>
                 <div class="socialicons">

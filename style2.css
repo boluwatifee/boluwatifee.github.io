@@ -1,0 +1,542 @@
+@media screen and (max-width: 768px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+       overflow-x: hidden;
+    }
+    nav{
+        padding: 5px 30px;
+    }
+   .nav-list{
+       position: absolute;
+       right: 0px;
+       width: 50%;
+       height: 90vh;
+       top: 10vh;
+       background-color: rgb(250 184 184);;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        display: none;
+   }
+   .nav-list.nav-active {
+       transform: translateX(0);
+       display: flex;
+   }
+   .nav-list li{
+       opacity: 0;
+   }
+   .scrolling-active{
+    background-color: white;
+    box-shadow: 0 3px1 rem rgba(0,0,0,.1);
+   }
+   
+   .hamburger{
+       display: block;
+   }
+   .content{
+    flex-direction: column;
+    height: 90%;
+   /*  margin: 30px 0px; */
+   padding: 10px;
+   margin: 0px 30px;
+}
+.hero-section{
+    background-image: linear-gradient(rgb(255, 255, 255) 50%,rgba(237, 9, 9, 0.29) 50%) rgb(255, 255, 255) 50%;
+    height: 100vh;
+    overflow: hidden;
+}
+.center img{
+    height: 650px;
+    width: 600px;
+}
+.center{
+    margin-top: 0px; 
+    display: flex;
+    flex-direction: column;
+}
+.leftpart, .rightpart{
+    display: none;
+    opacity: 0;
+}
+.bottom{
+    display: block;
+    margin: 6.8% 80px;
+    text-align: left;
+    font-size: 14px;
+    padding-top: 15px;
+}
+.bottom .dev, .design{
+font-weight: lighter;
+padding: 5px 0px;
+font-size: 18px;
+}
+.bottom span{
+    padding: 5px 0;
+    font-weight: 100;
+}
+.bottom h1{
+    font-size: 35px;
+    color:rgb(235, 70, 0, 0.79) ;
+    padding: 8px 0px;
+}
+
+
+.services-total {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: center;
+    margin-top: 70px;
+}
+.skill{
+    margin: 0 auto;
+    width: 80% ;
+    height: 800px;
+    padding: 30px;
+}
+.skill img{
+    margin: 10px auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.uiskill img{
+    width: 30px;
+    height: 30px;
+}
+.devskill img{
+    width: 38px;
+    height: 30px;
+}
+.content1{
+    text-align: center;
+}
+.content1 span{
+    font-size: 14px;
+}
+.content1 .topic{
+    color: rgba(235, 71, 0, 0.83);
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.devskill{
+    margin-top: 30px;
+}
+#services .heading, #portfolio .heading, #contact .heading{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+  /*   height: 20%; */
+}
+
+#portfolio{
+    margin-top: 200px;
+   /*  margin: 0; */
+}
+#portfolio .fe{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.project1, .project2, .project3{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: 0 auto;
+   align-items: center;
+/*    margin: 60px auto; */
+}
+.pro img{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+.procontent{
+    display: none;
+    font-size: 14px;
+  text-align:center;
+}
+.procontent p{
+    font-weight: 600;
+    font-size: 16px;
+}
+#portfolio .viewwork{
+    font-size: 12px;
+    /* padding: 15px 40px; */
+    border-radius: 25px;
+    margin-top: 15px;
+}
+.design{
+    margin-top: 50px;
+}
+.viewmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.overallbox{
+    display: none;
+}
+.extrabox{
+    display: block;
+}
+.extrabox img{
+    width: 200px;
+    height: 146px;
+    margin: 0 15px;
+}
+.EB1, .EB2, .EB3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+}
+#contact{
+    margin-top: 850px;
+}
+.funfact{
+    padding: 0 50px;
+    height: 200px;
+    font-size: 14px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.funfact p{
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+.funfact span{
+    text-align: center;
+    font-size: 14px;
+}
+.getintouch{
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.getintouch input{
+    font-size: 14px;
+    padding: 15px ;
+}
+.getintouch label{
+    font-weight: 400;
+    margin-bottom: 80px ;
+    font-size: 14px;
+}
+.getintouch .viewwork{
+    margin: 0 140px;
+    padding: 15px 40px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto;
+}
+.socialicons img{
+    width: 20px;
+    height: 20px;
+    margin: 0 25px;
+}
+#footer{
+    font-size: 14px;
+}
+}
+
+
+@media screen and (max-width: 468px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    nav{
+        padding: 5px 30px;
+    }
+  /* .nav-list{
+       position: absolute;
+       right: 0px;
+       width: 44%;
+       height: 100vh;
+       justify-content: space-around;
+  }
+       /* top: 5vh; */
+     /*   background-color: rgb(250 184 184);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        display: none;
+   } */ 
+   .nav-list.nav-active {
+       transform: translateX(0);
+       display: flex;
+   }
+   .nav-list li{
+       opacity: 0;
+   } */
+   .scrolling-active{
+    background-color: white;
+    box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+   }
+   .hamburger{
+       display: block;
+   }
+   .line{
+  /*   width: 34px;
+    height: 1.5px; */
+    background-color: #fff;
+} 
+.hero-section{
+    background-image: linear-gradient(rgb(255, 255, 255) 50%,rgba(237, 9, 9, 0.29) 50%) rgb(255, 255, 255) 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.center img{
+    height: 350px;
+    width: 300px;
+}
+.center{
+    margin-top: 0px; 
+    display: flex;
+    flex-direction: column;
+}
+.leftpart, .rightpart{
+    display: none;
+}
+.bottom{
+    display: block;
+    height: 60%;
+    margin: 6% 0px;
+    text-align: left;
+    font-size: 12px;
+    padding-top: 15px;
+}
+.bottom .dev, .design{
+font-weight: lighter;
+padding: 5px 0px;
+font-size: 10px;
+}
+.bottom span{
+    padding: 5px 0;
+    font-weight: 100;
+}
+.bottom h1{
+    font-size: 18px;
+    color:rgb(235, 70, 0, 0.79) ;
+    padding: 8px 0px;
+}
+
+.services-total {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: center;
+    margin-top: 70px;
+}
+.skill{
+    margin: 0 auto;
+    width: 80% ;
+    height: 800px;
+    padding: 30px;
+}
+.skill img{
+    margin: 10px auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.uiskill img{
+    width: 30px;
+    height: 30px;
+}
+.devskill img{
+    width: 38px;
+    height: 30px;
+}
+.content1{
+    text-align: center;
+}
+.content1 span{
+    font-size: 14px;
+}
+.content1 .topic{
+    color: rgba(235, 71, 0, 0.83);
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.devskill{
+    margin-top: 30px;
+}
+#services .heading, #portfolio .heading, #contact .heading{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+  /*   height: 20%; */
+}
+
+#portfolio{
+    margin-top: 200px;
+   /*  margin: 0; */
+}
+#portfolio .fe{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.project1, .project2, .project3{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: 0 auto;
+   align-items: center;
+/*    margin: 60px auto; */
+}
+.pro img{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+.procontent{
+    display: none;
+    font-size: 14px;
+  text-align:center;
+}
+.procontent p{
+    font-weight: 600;
+    font-size: 16px;
+}
+#portfolio .viewwork{
+    font-size: 12px;
+    /* padding: 15px 40px; */
+    border-radius: 25px;
+    margin-top: 15px;
+}
+.design{
+    margin-top: 50px;
+}
+.viewmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.overallbox{
+    display: none;
+}
+.extrabox{
+    display: block;
+}
+.extrabox img{
+    width: 30%;
+    height: 30%;
+    margin: 0 15px;
+}
+.EB1, .EB2, .EB3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+}
+#contact{
+    margin-top: 600px;
+    width: 100%;
+}
+.funfact{
+    padding: 0 50px;
+    height: 30%;
+    width: 100%;
+    font-size: 14px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.funfact p{
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+.funfact span{
+    text-align: center;
+    font-size: 14px;
+}
+.getintouch{
+   margin: 0 5%;
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.getintouch input{
+    font-size: 12px;
+    padding: 10px ;
+}
+.getintouch label{
+    font-weight: 400;
+    margin-bottom: 80px ;
+    font-size: 14px;
+}
+.getintouch #email{
+    width: 100%;
+    height: 50px;
+}
+.getintouch #message{
+    width: 100%;
+    height: 200px;
+}
+.getintouch .viewwork{
+    margin: 0 140px;
+    padding: 15px 40px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto;
+}
+.socialicons img{
+    width: 20px;
+    height: 20px;
+    margin: 0 25px;
+}
+#footer{
+    font-size: 14px;
+}
+}
+
