@@ -583,19 +583,19 @@ nav img{
     background-image: url("./images/portfolio\ pic.png");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 75%;
+    height: 65%;
 }
 .project2{
     background-image: url("./images/Screenshot\ \(384\).png");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 75%;
+    height: 65%;
 }
 .project3{
     background-image: url("./images/Screenshot\ \(383\).png");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 85%;
+    height: 70%;
 }
 .procontent{
     font-size: 16px;
@@ -626,7 +626,7 @@ nav img{
     height: 189px;
 }
 #contact{
-    margin-top: 2500px;
+    margin-top: 2100px;
 }
 .funfact{
     padding: 20px 30px;
