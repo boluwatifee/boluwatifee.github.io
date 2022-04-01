@@ -171,7 +171,7 @@ nav img{
 }
 .center{
     margin-top: 330px;
-}video\\
+}
 .bottom{
     display: none;
 }
@@ -283,7 +283,7 @@ nav img{
     margin-top: 50px;
     margin-bottom: 0px;
 }
-.pro{
+/* .pro{
    display: flex;
    justify-content: center;
    align-items: center;
@@ -291,15 +291,49 @@ nav img{
    border: 1px solid #e5e5e591;
    box-shadow: 2px 0 20px rgba(0, 0, 0, 0.055) ;
    margin: 60px 350px;
-}
-.pro img{
+} */
+.pro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   /*  border: 1px solid #e5e5e591;
+    box-shadow: 2px 0 20px rgba(0, 0, 0, 0.055) ; */
+    margin: 60px auto;
+    padding: 0 0 30px 0;
+ }
+ .project1{
+     background-image: url("./images/portfolio\ pic.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     width: 65%;
+     height: 40%;
+ }
+ .project2{
+     background-image: url("./images/Screenshot\ \(384\).png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     width: 65%;
+     height: 40%;
+ }
+ .project3{
+     background-image: url("./images/Screenshot\ \(383\).png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     width: 65%;
+     height: 40%;
+ }
+
+/* .pro img{
     width: 450px;
     height: 300px;
     margin-right: 50px;
     border: solid 0.5px #e5e5e591;
-}
+} */
 .procontent{
     font-size: 16px;
+    flex-wrap: wrap;
+    margin: 0 0 0 680px ;
 }
 .procontent p{
     font-weight: 600;
@@ -408,7 +442,7 @@ nav img{
 }
 
 #contact{
-    margin-top: 1860px;
+    margin-top: 1590px;
     font-family: poppins, sans-serif;
 }
 .funfact{
@@ -576,6 +610,8 @@ nav img{
    flex-wrap: wrap;
    justify-content: center;
    align-items: center;
+   border: 1px solid #e5e5e591;
+    box-shadow: 2px 0 20px rgba(0, 0, 0, 0.055) ;
    margin: 60px 150px;
    padding: 0 0 30px 0;
 }
@@ -583,23 +619,26 @@ nav img{
     background-image: url("./images/portfolio\ pic.png");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 65%;
+    height: 70%;
+    width: auto;
 }
 .project2{
     background-image: url("./images/Screenshot\ \(384\).png");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 65%;
+    height: 70%;
+    width: auto;
 }
 .project3{
     background-image: url("./images/Screenshot\ \(383\).png");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 70%;
+    height: 75%;
+    width: auto;
 }
 .procontent{
     font-size: 16px;
-    margin: 270px;   
+    margin: 290px;   
 }
 .procontent p{
     font-weight: 600;
@@ -626,7 +665,7 @@ nav img{
     height: 189px;
 }
 #contact{
-    margin-top: 2350px;
+    margin-top: 2300px;
 }
 .funfact{
     padding: 20px 30px;
@@ -638,6 +677,7 @@ nav img{
 }
 #contact .heading{
    word-spacing: 15px;
+   overflow: auto;
 }
 .getintouch{
    margin: 0;
@@ -650,9 +690,194 @@ form label{
     font-size: 18px;
 }
 }
-/* @media screen and (max-width:768px){
+@media screen and (max-width:468px){
+    .bottom{
+        margin-top: 50px;
+        width: 250px;
+    }
+    .center{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        margin-top: 210px; 
+    }
+    .bottom h1{
+        font-size: 24px ;
+    }
+    .bottom span{
+        font-size: 16px;
+    }
+    .center img{
+       height: 450px;
+        width: 100%;
+        align-items: center;
+        margin-top: 0px;
+        z-index: 1;
+    }
+    #services .heading{
+        margin-top: 80px;
+        font-size: 18px;
+    }
+    .services-total {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    margin: 0 auto;
+   
+}
+.skill{
+    margin-top: 0 50px 50px 0;
+    width:300px;
+    height: 550px;
+    justify-content: center;
+}
+.skill img{
+    width: 30px;
+    height: 30px;
+    margin: 20px 145px;
+    margin-top: 40px;
+}
+.content1 p{
+    font-size: 16px;
+}
+.content1 span{
+    font-size: 14px;
+}
 
-} */
+#portfolio{
+    margin-top: 700px;
+}
+#portfolio .heading{
+    font-size: 18px;
+}
+.pro{
+   display: flex;
+  /*  flex-wrap: wrap; */
+   justify-content: center;
+   align-items: center;
+   border: 1px solid #e5e5e591;
+    box-shadow: 2px 0 20px rgba(0, 0, 0, 0.055) ;
+   margin: 60px 70px;
+   padding: 0 0 30px 0;
+}
+.project1{
+    background-image: url("./images/portfolio\ pic.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 520px;
+    width: 65%;
+}
+.project2{
+    background-image: url("./images/Screenshot\ \(384\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    width: 65%;
+}
+.project3{
+    background-image: url("./images/Screenshot\ \(383\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    width: 65%;
+}
+.procontent{
+    font-size: 16px;
+    margin: 170px;   
+}
+.procontent p{
+    font-weight: 600;
+    width: 190px;
+}
+
+#contact{
+    margin-top: 3200px;
+}
+.funfact{
+    margin: 0px auto;
+    padding: 30px;
+    height: 300px;
+    text-align: center;
+    font-weight: 100;
+}
+.funfact p{
+    font-size: 18px;
+    padding-top: 70px ;
+    padding-bottom: 5px;
+}
+.funfact span{
+    padding-bottom: 70px;
+}
+#contact .heading{
+   word-spacing: 15px;
+   overflow: auto;
+}
+
+
+form label{
+    font-size: 18px;
+}
+.getintouch{
+    margin: 0 auto;
+ }
+ .getintouch form{
+     justify-content: center;
+     align-items: center;
+    margin-left: 30px;
+ }
+ .getintouch input{
+     border: 1px solid rgba(196, 196, 196, 0.82);
+     border-radius: 10px;
+     margin-bottom: 50px;
+     padding: 15px;
+ }
+ .getintouch #email, #message{
+     font-family: montserrat sans-serif;
+     font-size: 22px;
+     font-weight: 300;
+ }
+ .getintouch label{
+     font-weight: 400;
+     margin-bottom: 60px ;
+ }
+ .getintouch #email{
+     width: 290px;
+     height: 50px;
+ }
+ .getintouch #message{
+     width: 290px;
+     height: 200px;
+     border: 1px solid rgba(196, 196, 196, 0.82);
+     border-radius: 10px;
+     padding: 15px;
+ }
+ .getintouch .viewwork{
+     margin: 0 auto;
+     padding: 15px 40px;
+     border-radius: 25px;
+     font-size: 16px;
+ }
+ .socialicons{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .socialicons img{
+     width: 25px;
+     height: auto;
+     margin: 50px 20px;
+ }
+ #footer{
+     width: 100vw;
+     padding: 20px;
+ }
+ #footer.p{
+     font-size: 10px;
+ }
+}
 
 
 
