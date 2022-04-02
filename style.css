@@ -892,4 +892,41 @@ form label{
 }
 
 
+@media screen and (max-width:414px){
+    .bottom{
+        margin-top: 50px;
+        width: 300px;
+    }
+    .center{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        margin-top: 250px; 
+    }
+    .bottom h1{
+        font-size: 30px ;
+        margin-bottom: 20px;
+    }
+    .bottom span{
+        font-size: 18px;
+    }
+    .center img{
+       height: 400px;
+        width: 100%;
+        align-items: center;
+        margin-top: 0;
+        z-index: 1;
+    }
+
+    #portfolio{
+        margin-top: 420px;
+    }
+
+    #contact{
+        margin-top: 3500px;
+    }
+}
+
+
 
