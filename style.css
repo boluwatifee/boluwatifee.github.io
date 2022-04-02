@@ -10,7 +10,7 @@ body{
     font-family: Poppins, sans-serif;
 }
 
-#loader{
+/* #loader{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,7 +64,7 @@ body{
     to{
         transform: translateY(-100%);
     }
-}
+} */
 /* After scrolling */
  .scrolling-active{
     background-color: white;
@@ -690,16 +690,19 @@ form label{
 }
 }
 @media screen and (max-width:468px){
+    .hero-section{
+        height: 80vh;
+    }
     .bottom{
-        margin-top: 50px;
+        margin-top: 0px;
         width: 300px;
     }
     .center{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+      flex-wrap: wrap ;
+        justify-content: left;
         align-items: left;
-        margin-top: 448px; 
+        margin-top: 330px; 
     }
     .bottom h1{
         font-size: 30px ;
@@ -709,7 +712,7 @@ form label{
         font-size: 18px;
     }
     .center img{
-       height: 700px;
+       height: 500px;
         width: 100%;
         align-items: center;
         margin-top: 0;
@@ -893,25 +896,14 @@ form label{
 
 @media screen and (max-width:414px){
     .bottom{
-        margin-top: 20px;
+        margin-bottom: 20px;
         width: 300px;
     }
     .center{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: left;
-        margin-top: 250px; 
-    }
-    .bottom h1{
-        font-size: 30px ;
-        margin-bottom: 20px;
-    }
-    .bottom span{
-        font-size: 18px;
+        margin-top: 180px; 
     }
     .center img{
-       height: 400px;
+       height: 300px;
         width: 100%;
         align-items: center;
         margin-top: 0;
@@ -927,7 +919,7 @@ form label{
     }
 }
 
-@media screen and (max-width:360px){
+/* @media screen and (max-width:360px){
     .bottom{
         margin-top: 50px;
         width: 300px;
@@ -953,7 +945,7 @@ form label{
         margin-top: 100px;
         z-index: 1;
     }
-}
+} */
 
 
 
