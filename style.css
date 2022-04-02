@@ -9,7 +9,7 @@ body{
     background-color: white;
     font-family: Poppins, sans-serif;
 }
-/* 
+
 #loader{
     display: flex;
     justify-content: center;
@@ -25,9 +25,8 @@ body{
 }
 #wrapperload{
     width: 500px;
-    height: 100px; */
-    /* background-color: #efefef; */
-/*     overflow: hidden;
+    height: 100px;
+    overflow: hidden;
 }
 #wrapperload .elem{
     display: flex;
@@ -65,7 +64,7 @@ body{
     to{
         transform: translateY(-100%);
     }
-} */
+}
 /* After scrolling */
  .scrolling-active{
     background-color: white;
@@ -894,7 +893,7 @@ form label{
 
 @media screen and (max-width:414px){
     .bottom{
-        margin-top: 50px;
+        margin-top: 20px;
         width: 300px;
     }
     .center{
@@ -927,6 +926,35 @@ form label{
         margin-top: 3500px;
     }
 }
+
+@media screen and (max-width:360px){
+    .bottom{
+        margin-top: 50px;
+        width: 300px;
+    }
+    .center{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        margin-top: 200px; 
+    }
+    .bottom h1{
+        font-size: 30px ;
+        margin-bottom: 20px;
+    }
+    .bottom span{
+        font-size: 18px;
+    }
+    .center img{
+       height: 400px;
+        width: 100%;
+        align-items: center;
+        margin-top: 100px;
+        z-index: 1;
+    }
+}
+
 
 
 
