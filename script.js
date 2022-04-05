@@ -24,10 +24,34 @@ hamburger.addEventListener('click', responsiveNav);
 
 function responsiveNav(){
     var x = document.getElementsByClassName('nav-list');
-    
+
     x.style.display = 'block';
 }
 
+
+//for the contact form
+
+function sendMsg(e){
+    
+    const form = document.querySelector('.contact_form')
+    const email = document.getElementById('email');
+    const mssg = document.getElementById('message');
+
+    Email.send({
+        SecureToken : "48021d20-d653-4cfd-9933-9ada686f67c325c21cdb-9fb2-4428-a3a4-f2cde0d41cbb",
+        To : 'bjemiriye@gmail.com',
+        From : email.value,
+        Subject : "Contact Form",
+        Body : mssg
+    }).then(
+    message => alert(message)
+    );
+
+
+    e.preventDefault();
+}
+
+form.addEventListener('submit', sendMsg);
 
 
 
