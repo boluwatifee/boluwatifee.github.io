@@ -671,8 +671,11 @@ nav img{
     font-size: 16px;
     margin: 290px;   
 }
+.procontent span{
+    font-weight: lighter;
+}
 .procontent p{
-    font-weight: 600;
+    font-weight: bold;
     width: 300px;
 }
 #portfolio .viewwork{
