@@ -18,7 +18,7 @@ button{
 a{
     text-decoration: none;
 }
-/* #loader{
+#loader{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +72,7 @@ a{
     to{
         transform: translateY(-100%);
     }
-} */
+}
 /* After scrolling */
  .scrolling-active{
     background-color: white;
