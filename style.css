@@ -219,6 +219,9 @@ nav img{
     padding: 20px;
     border-radius: 25px;
 }
+.viewwork a{
+    color: white;
+}
 
 #about{
     height: 100vh;
